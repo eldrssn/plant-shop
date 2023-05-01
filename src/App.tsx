@@ -1,7 +1,10 @@
-import './App.css';
+import { MainLayout } from './layouts/MainLayout';
+import { Home } from './components/base/home/Home';
 
-function App() {
-  return <></>;
-}
+const App = () => (
+  <MainLayout>
+    <Home />
+  </MainLayout>
+);
 
 export default App;
