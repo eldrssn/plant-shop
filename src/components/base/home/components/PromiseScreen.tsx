@@ -1,5 +1,5 @@
 import { PromiseItem } from './PromiseItem';
-import { promises } from './constants';
+import { promises } from '@/content/promises';
 
 const PromiseScreen = () => (
   <section>

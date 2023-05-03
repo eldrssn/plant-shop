@@ -1,7 +1,7 @@
+import { Icon } from '../ButtonIcon';
+
 const ArrowBackIcon = () => (
-  <svg className='w-[105px] h-[21px] cursor-pointer'>
-    <use href='src/assets/sprite.svg#arrow-back' />
-  </svg>
+  <Icon svgId='arrow-back' className='w-[105px] h-[21px] cursor-pointer' />
 );
 
 export { ArrowBackIcon };

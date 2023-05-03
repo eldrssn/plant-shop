@@ -1,3 +1,4 @@
-export type TButtonIcon = {
+export type TIcon = {
   svgId: string;
+  className?: string;
 };

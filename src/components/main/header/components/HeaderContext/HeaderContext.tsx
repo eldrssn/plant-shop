@@ -9,7 +9,7 @@ import {
 
 import { MAIN_CATEGORY } from '@/constants/header';
 import { useToggleMenu } from '@/hooks/useToggleMenu';
-import { catalog } from '@/mocks/catalog';
+import { catalog } from '@/content/catalog';
 import { Children } from '@/types';
 import { TMenuItem } from '@/components/main/header/types';
 

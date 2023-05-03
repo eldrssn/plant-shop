@@ -1,7 +1,7 @@
+import { Icon } from '../ButtonIcon';
+
 const LogoIcon = () => (
-  <svg className='w-[105px] h-[21px]'>
-    <use href='src/assets/sprite.svg#patch-logo' />
-  </svg>
+  <Icon svgId='patch-logo' className='w-[105px] h-[21px]' />
 );
 
 export { LogoIcon };
