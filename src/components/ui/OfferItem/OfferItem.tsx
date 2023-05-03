@@ -2,8 +2,9 @@ import { FC } from 'react';
 import clsx from 'clsx';
 
 import { OfferButton } from '@/components/ui/OfferButton';
+import { OfferPositions } from '@/types';
 
-import { OfferPositions, TOfferItem } from './types';
+import { TOfferItem } from './types';
 
 const OfferItem: FC<TOfferItem> = ({
   title,

@@ -1,7 +1,4 @@
-export enum OfferPositions {
-  LEFT = 'left',
-  RIGHT = 'right',
-}
+import { OfferPositions } from '@/types';
 
 export type TOfferItem = {
   title: string;

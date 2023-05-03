@@ -1,13 +1,15 @@
 import { FC } from 'react';
 
 import { Header } from '@components/main/header';
+import { Footer } from '@/components/main/footer';
 import { Children } from '@/types';
 
 const MainLayout: FC<Children> = ({ children }) => (
-  <body className='text-base'>
+  <>
     <Header />
     {children}
-  </body>
+    <Footer />
+  </>
 );
 
 export { MainLayout };

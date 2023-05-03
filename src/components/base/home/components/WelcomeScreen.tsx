@@ -1,7 +1,7 @@
 import { ButtonLink } from '@/components/ui/EmptyButton';
 
 const WelcomeScreen = () => (
-  <section className='bg-stone-200 '>
+  <section className='bg-stone-200'>
     <div
       className='-mt-[64px] md:mt-0 w-full h-screen flex flex-col 
     md:flex-row-reverse max-w-[1680px] m-auto md:max-h-[764px]'
