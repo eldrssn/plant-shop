@@ -15,3 +15,12 @@ export enum OfferPositions {
   LEFT = 'left',
   RIGHT = 'right',
 }
+
+export type TCarouselItem = {
+  id: number;
+  title: string;
+  description?: string;
+  price: number;
+  isOptions: boolean;
+  img: string;
+};

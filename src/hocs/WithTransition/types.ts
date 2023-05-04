@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { TransitionStatus } from 'react-transition-group';
 
-export type TWithTransitionMenu = {
+export type TWithTransition = {
   isOpen: boolean;
   classNames?: string;
   children: ReactNode;

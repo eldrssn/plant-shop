@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { WithTransitionMenu } from '@/hocs/WithTransitionMenu';
+import { WithTransition } from '@/hocs/WithTransition';
 import { HeaderContext } from '@/components/main/header/components/HeaderContext';
 
 import { CatalogItem } from '../CatalogItem';
@@ -12,7 +12,7 @@ const CatalogList = () => {
   return (
     <ul className='w-full mt-8'>
       {currentMenu.map((item, index) => (
-        <WithTransitionMenu
+        <WithTransition
           key={item.title}
           style={{
             defaultStyle: getDefaultStyles(++index),
@@ -21,7 +21,7 @@ const CatalogList = () => {
           isOpen={isNav}
         >
           <CatalogItem {...item} onClick={handleItemClick(item)} />
-        </WithTransitionMenu>
+        </WithTransition>
       ))}
     </ul>
   );

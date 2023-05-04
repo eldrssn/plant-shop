@@ -1,9 +1,9 @@
 import { FC, createRef } from 'react';
 import { Transition } from 'react-transition-group';
 
-import { TWithTransitionMenu } from './types';
+import { TWithTransition } from './types';
 
-const WithTransitionMenu: FC<TWithTransitionMenu> = ({
+const WithTransition: FC<TWithTransition> = ({
   isOpen,
   classNames,
   children,
@@ -29,4 +29,4 @@ const WithTransitionMenu: FC<TWithTransitionMenu> = ({
   );
 };
 
-export { WithTransitionMenu };
+export { WithTransition };

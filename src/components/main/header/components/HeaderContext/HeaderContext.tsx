@@ -29,7 +29,11 @@ export const HeaderContext = createContext<THeaderContent>({
 //TODO: finalize & refactor
 
 const HeaderContextProvider: FC<Children> = ({ children }) => {
-  const [isOpenMobileMenu, openMobileMenu, closeMobileMenu] = useToggleMenu();
+  const {
+    isOpen: isOpenMobileMenu,
+    openMenu: openMobileMenu,
+    closeMenu: closeMobileMenu,
+  } = useToggleMenu();
   const [isNav, setIsNav] = useState(isOpenMobileMenu);
   const [currentMenu, setCurrentMenu] = useState<TMenuItem[]>(catalog);
   const [, setLevel] = useState(0);
