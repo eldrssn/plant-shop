@@ -1,7 +1,7 @@
 const KitchenScreen = () => (
   <section className='bg-zinc-50'>
     <div
-      className='w-full h-screen flex flex-col bg-zinc-50
+      className='w-full min-h-screen flex flex-col bg-zinc-50
         md:flex-row max-w-[1680px] m-auto md:max-h-[764px]'
     >
       <div className='h-2/5 md:h-screen md:w-1/2'>

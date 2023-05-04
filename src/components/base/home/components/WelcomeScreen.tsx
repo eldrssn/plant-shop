@@ -1,4 +1,4 @@
-import { ButtonLink } from '@/components/ui/EmptyButton';
+import { ButtonLink } from '@/components/ui/ButtonLink';
 
 const WelcomeScreen = () => (
   <section className='bg-stone-200'>

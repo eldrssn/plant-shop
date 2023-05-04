@@ -15,7 +15,7 @@ const OfferItem: FC<TOfferItem> = ({
   position,
 }) => (
   <article
-    className={clsx('md:flex md:flex-row my-20 md:justify-between', {
+    className={clsx('md:flex md:flex-row py-20 md:justify-between', {
       'md:flex-row-reverse': position === OfferPositions.RIGHT,
     })}
   >
