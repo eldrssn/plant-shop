@@ -36,8 +36,17 @@ const HeaderContextProvider: FC<Children> = ({ children }) => {
   } = useToggleMenu();
   const [isNav, setIsNav] = useState(isOpenMobileMenu);
   const [currentMenu, setCurrentMenu] = useState<TMenuItem[]>(catalog);
-  const [, setLevel] = useState(0);
+  // const [parentTitle, setParentTitle] = useState('');
+  // const [, setLevel] = useState(0);
+  const [menuLevel, setMenuLevel] = useState<number>(0);
 
+  const handleMenuItemClick = (index: number) => {
+    setMenuLevel(index);
+  };
+
+  const handleBackClick = () => {
+    setMenuLevel((prev) => prev - 1);
+  };
   const toggleNav = useCallback(() => setIsNav((isNav) => !isNav), [setIsNav]);
 
   const handleItemClick = useCallback(
@@ -49,16 +58,17 @@ const HeaderContextProvider: FC<Children> = ({ children }) => {
       setTimeout(() => {
         toggleNav();
       });
-      setLevel((level) => level++);
+      setMenuLevel((level) => level + 1);
       setCurrentMenu(item.children);
+      // setParentTitle(item.title);
     },
     [toggleNav],
   );
 
-  const isMainCategory = useMemo(
-    () => currentMenu[0].type === MAIN_CATEGORY,
-    [currentMenu],
-  );
+  // const isMainCategory = useMemo(
+  //   () => currentMenu[0].type === MAIN_CATEGORY,
+  //   [currentMenu],
+  // );
 
   useEffect(() => {
     toggleNav();
@@ -68,28 +78,17 @@ const HeaderContextProvider: FC<Children> = ({ children }) => {
     };
   }, [isOpenMobileMenu, toggleNav]);
 
-  const value = useMemo(
-    () => ({
-      isOpenMobileMenu,
-      openMobileMenu,
-      closeMobileMenu,
-      isNav,
-      toggleNav,
-      handleItemClick,
-      currentMenu,
-      isMainCategory,
-    }),
-    [
-      isOpenMobileMenu,
-      openMobileMenu,
-      closeMobileMenu,
-      isNav,
-      handleItemClick,
-      toggleNav,
-      currentMenu,
-      isMainCategory,
-    ],
-  );
+  const value = {
+    isOpenMobileMenu,
+    openMobileMenu,
+    closeMobileMenu,
+    isNav,
+    toggleNav,
+    handleItemClick,
+    currentMenu,
+    // isMainCategory,
+    handleBackClick,
+  };
   return (
     <HeaderContext.Provider value={value}>{children}</HeaderContext.Provider>
   );

@@ -6,6 +6,7 @@ import { useContext } from 'react';
 import { HeaderContext } from '../HeaderContext';
 
 import clsx from 'clsx';
+import { Background } from '@/components/ui/Background/Background';
 
 const CatalogMenu = () => {
   const { isOpenMobileMenu, openMobileMenu, closeMobileMenu } =
@@ -17,14 +18,7 @@ const CatalogMenu = () => {
         <MobileMenuButton onClick={openMobileMenu} />
       </div>
 
-      {isOpenMobileMenu && (
-        <div
-          onClick={closeMobileMenu}
-          className={
-            'absolute w-full h-screen left-0 top-0 bg-black opacity-25 transition-opacity z-9'
-          }
-        />
-      )}
+      {isOpenMobileMenu && <Background onClick={closeMobileMenu} />}
 
       <nav
         className={clsx(
