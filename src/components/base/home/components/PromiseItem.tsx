@@ -11,8 +11,7 @@ const PromiseItem: FC<TPromiseItem> = ({ label, title, desciption, image }) => (
       className='mx-auto mb-2'
     />
     <p>
-      <span className='font-bold'>{title}</span>
-      {desciption}
+      <span className='font-bold'>{title}</span> {desciption}
     </p>
   </li>
 );

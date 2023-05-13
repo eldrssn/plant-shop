@@ -1,3 +1,4 @@
+import { DESKTOP_WIDTH } from '@/constants';
 import { useEffect, useState } from 'react';
 
 type WindowSidesType = {
@@ -33,6 +34,7 @@ const useWindowSize = () => {
   return {
     windowWidth,
     windowHeight,
+    isDesktop: windowWidth && DESKTOP_WIDTH < windowWidth,
   };
 };
 
