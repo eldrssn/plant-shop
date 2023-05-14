@@ -1,11 +1,13 @@
 import { FC, useState } from 'react';
-import { TMenuItem } from '../../types';
+
+import { TMenuItem } from '@/components/main/header/types';
+
 import { SubMenuList } from './SubMenuList';
-import { TSubMenuItem } from './types';
+import { TSubMenuItem } from '../types';
 
 const SubMenuItem: FC<TSubMenuItem> = ({ submenu }) => {
   const [menu, setMenu] = useState<TMenuItem[] | null>(null);
-  
+
   if (!submenu) {
     return null;
   }

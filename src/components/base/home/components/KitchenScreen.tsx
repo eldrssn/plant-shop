@@ -6,15 +6,15 @@ const KitchenScreen = () => (
     >
       <div className='h-2/5 md:h-screen md:w-1/2'>
         <img
-          src='src/assets/pictures/ShopTheLook_KitchenPerson.jpg'
+          src='/pictures/ShopTheLook_KitchenPerson.jpg'
           alt='kitchen-person'
           className='object-cover object-center w-full h-full'
         />
       </div>
 
-      <div className='h-3/5 md:h-screen flex items-center md:w-1/2'>
+      <div className='flex items-center h-3/5 md:h-screen md:w-1/2'>
         <div className='py-12 px-8 md:max-w-[37.5rem] lg:pl-20'>
-          <h3 className='text-4xl md:text-5xl mt-0 mb-6 md:mb-8 font-bold text-zinc-800'>
+          <h3 className='mt-0 mb-6 text-4xl font-bold md:text-5xl md:mb-8 text-zinc-800 font-header'>
             Decorate your home with plants
           </h3>
 

@@ -3,14 +3,14 @@ import { useContext } from 'react';
 import { CloseMenuButton } from '@/components/ui/CloseMenuButton';
 import { LogoIcon } from '@/components/ui/Icons/LogoIcon';
 import { ArrowBackIcon } from '@/components/ui/Icons/ArrowBackIcon';
-import { HeaderContext } from '@/components/main/header/components/HeaderContext';
+import { CatalogContext } from './CatalogContext';
 
 const CatalogHeader = () => {
-  const { closeMobileMenu, isMainCategory, handleBackClick } =
-    useContext(HeaderContext);
+  const { closeMenu, isMainCategory, handleBackClick } =
+    useContext(CatalogContext);
 
   return (
-    <div className='flex flex-row justify-between py-5 px-8'>
+    <div className='flex flex-row justify-between px-8 py-5'>
       {!isMainCategory ? (
         <button onClick={handleBackClick}>
           <ArrowBackIcon />
@@ -18,7 +18,7 @@ const CatalogHeader = () => {
       ) : (
         <LogoIcon />
       )}
-      <CloseMenuButton onClick={closeMobileMenu} />
+      <CloseMenuButton onClick={closeMenu} />
     </div>
   );
 };

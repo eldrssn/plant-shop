@@ -2,7 +2,7 @@ import { Icon } from '@/components/ui/ButtonIcon';
 import { FC } from 'react';
 import clsx from 'clsx';
 
-import { Directions, TArrowButton } from './types';
+import { Directions, TArrowButton } from '../types';
 
 const ArrowButton: FC<TArrowButton> = ({ onClick, isDisabled, direction }) => {
   const isNext = direction === Directions.NEXT;

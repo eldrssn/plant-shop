@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { TCatalogItem } from './types';
+import { TCatalogItem } from '../types';
 
 const CatalogItem: FC<TCatalogItem> = ({ title, children, onClick }) => {
   const isChildren = !!children && children?.length > 0;
@@ -7,7 +7,7 @@ const CatalogItem: FC<TCatalogItem> = ({ title, children, onClick }) => {
   return (
     <li
       onClick={onClick}
-      className='flex flex-row relative justify-between px-8 py-3 cursor-pointer'
+      className='relative flex flex-row justify-between px-8 py-3 cursor-pointer'
     >
       <p className='text-2xl'>{title}</p>
       {isChildren && (

@@ -4,7 +4,7 @@ export const catalog: TMenuItem[] = [
   {
     title: 'Plants',
     type: 'main',
-    picture: 'src/assets/pictures/uyqprhxwdxligxwedzlo.webp',
+    picture: '/pictures/uyqprhxwdxligxwedzlo.webp',
     children: [
       { title: 'All plants' },
       {
@@ -88,7 +88,7 @@ export const catalog: TMenuItem[] = [
   {
     title: 'Pots',
     type: 'main',
-    picture: 'src/assets/pictures/noovqiilppwn6v3iyfbt.webp',
+    picture: '/pictures/noovqiilppwn6v3iyfbt.webp',
     children: [
       { title: 'All pots' },
       { title: 'Indoor pots' },
@@ -98,7 +98,7 @@ export const catalog: TMenuItem[] = [
   {
     title: 'Plant care',
     type: 'main',
-    picture: 'src/assets/pictures/xpfb2inkgcuscuoq8fia.jpg',
+    picture: '/pictures/xpfb2inkgcuscuoq8fia.jpg',
     children: [
       { title: 'All plant care' },
       { title: 'Tools & accessories' },
@@ -122,7 +122,7 @@ export const catalog: TMenuItem[] = [
   {
     title: 'Businesses',
     type: 'main',
-    picture: 'src/assets/pictures/Jan_23_B2B-min.jpg',
+    picture: '/pictures/Jan_23_B2B-min.jpg',
     children: [
       { title: 'All businesses' },
       { title: 'Commercial offices' },
@@ -133,7 +133,7 @@ export const catalog: TMenuItem[] = [
   {
     title: 'Gifts',
     type: 'main',
-    picture: 'src/assets/pictures/ox3cn4sjtfxnnn2jgpek.webp',
+    picture: '/pictures/ox3cn4sjtfxnnn2jgpek.webp',
     children: [
       { title: 'All gifts' },
       { title: 'Most popular gifts' },

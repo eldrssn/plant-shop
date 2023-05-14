@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import { TMainCategories } from './types';
+import { TMainCategories } from '../types';
 
 const MainCategories: FC<TMainCategories> = ({ catalog, showMenu }) => (
-  <ul className='flex flex-row pl-12 h-full'>
+  <ul className='flex flex-row h-full pl-12'>
     {catalog.map((item) => (
       <li
         key={item.title}

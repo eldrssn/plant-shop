@@ -4,8 +4,8 @@ import { TMenuItem } from '@/components/main/header/types';
 import { Background } from '@/components/ui/Background/Background';
 import { catalog } from '@/content/catalog';
 
-import { MainCategories } from './MainCategories';
-import { Categories } from './Categories';
+import { MainCategories } from './components/MainCategories';
+import { Categories } from './components/Categories';
 
 const CatalogMenuDesktop = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);

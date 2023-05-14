@@ -1,7 +1,7 @@
 export const trustMessages = [
   {
     id: 1,
-    icon: 'src/assets/svg/icon-telephone.svg',
+    icon: '/svg/icon-telephone.svg',
     title: 'Help',
     descriptions: [
       'Need to get in touch?',
@@ -14,7 +14,7 @@ export const trustMessages = [
   },
   {
     id: 2,
-    icon: 'src/assets/svg/icon-security.svg',
+    icon: '/svg/icon-security.svg',
     title: 'Security',
     descriptions: [
       'Secure payment - our systems are protected with bank-grade security. Your payment is safe with us.',
@@ -22,7 +22,7 @@ export const trustMessages = [
   },
   {
     id: 3,
-    icon: 'src/assets/svg/icon-delivery.svg',
+    icon: '/svg/icon-delivery.svg',
     title: 'Quality',
     descriptions: [
       'We work directly with over 40 specialist growers to bring you the best quality plants',
@@ -30,7 +30,7 @@ export const trustMessages = [
   },
   {
     id: 4,
-    icon: 'src/assets/svg/icon-patch-promise.svg',
+    icon: '/svg/icon-patch-promise.svg',
     title: 'Patch promise',
     descriptions: [
       'If you need advice, just get in touch - we’ll be your personal plant gurus as long as you need us. If something’s up, tell us within 30 days of delivery — we’ll sort it.',

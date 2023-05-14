@@ -3,8 +3,9 @@ import { FC } from 'react';
 import { WithTransition } from '@/hocs/WithTransition';
 
 import { SubMenuList } from './SubMenuList';
-import { defaultStyle, transitionStyles } from './constants';
-import { TSubMenuList } from './types';
+import { defaultStyle, transitionStyles } from '../constants';
+import { TSubMenuList } from '../types';
+import clsx from 'clsx';
 
 const Categories: FC<TSubMenuList> = ({
   submenu,
@@ -24,10 +25,20 @@ const Categories: FC<TSubMenuList> = ({
         transitionStyles,
       }}
       isOpen={!!isOpenMenu}
-      classNames='bg-white border-t w-full top-[80px] left-0 absolute '
+      classNames={clsx(
+        'bg-white border-t w-full top-[80px] left-0 absolute',
+        {},
+      )}
     >
-      <div onMouseLeave={closeMenu} className='h-[450px]'>
-        <div className='flex flex-row max-w-[1680px] [@media(min-width:1200px)]:pl-20 pl-5 m-auto h-full'>
+      <div onMouseLeave={closeMenu}>
+        <div
+          className={clsx(
+            'flex flex-row max-w-[1680px] [@media(min-width:1200px)]:pl-20 pl-5 m-auto h-full',
+            {
+              'h-0': !isOpenMenu,
+            },
+          )}
+        >
           <div className='ml-auto flex flex-row basis-2/3 max-w-[53.5rem] mt-12'>
             <div className='text-xl font-medium basis-1/5 [@media(min-width:1200px)]:basis-1/4'>
               {mainSubcategory.title}

@@ -27,9 +27,9 @@ const OfferItem: FC<TOfferItem> = ({
       />
     </div>
 
-    <div className='md:w-2/5 my-auto'>
+    <div className='my-auto md:w-2/5'>
       <div className='py-12 px-7'>
-        <h3 className='text-2xl font-bold mb-6 text-zinc-800 md:text-4xl'>
+        <h3 className='mb-6 text-2xl font-bold text-zinc-800 md:text-4xl'>
           {title}
         </h3>
         <p className='mb-8'>{description}</p>

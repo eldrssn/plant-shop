@@ -1,9 +1,9 @@
 import { socialLinksList } from '@/content/footer';
 
 const SocialLinksList = () => (
-  <ul className='w-fit m-auto pt-4'>
+  <ul className='pt-4 m-auto w-fit'>
     {socialLinksList.map(({ title, link, id, Icon }) => (
-      <li className='inline-block m-auto p-2' key={id}>
+      <li className='inline-block p-2 m-auto' key={id}>
         <a
           href={link}
           target='_blank'

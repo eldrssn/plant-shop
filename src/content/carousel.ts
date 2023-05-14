@@ -7,14 +7,14 @@ export const carouselTop: TCarouselItem[] = [
     description: "Calathea 'Elgergrass'",
     price: 28,
     isOptions: false,
-    img: 'src/assets/pictures/rb1llk8t58q7sdid5jvj.webp',
+    img: '/pictures/rb1llk8t58q7sdid5jvj.webp',
   },
   {
     id: 2,
     title: 'Clay pot',
     price: 5,
     isOptions: true,
-    img: 'src/assets/pictures/gdiqpkze6rhc2jrvgnjd.webp',
+    img: '/pictures/gdiqpkze6rhc2jrvgnjd.webp',
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const carouselTop: TCarouselItem[] = [
     title: 'Pippa',
     price: 10,
     isOptions: true,
-    img: 'src/assets/pictures/cjbnqexhcuzi0vytagx5.webp',
+    img: '/pictures/cjbnqexhcuzi0vytagx5.webp',
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ export const carouselTop: TCarouselItem[] = [
     title: 'Jo',
     price: 28,
     isOptions: false,
-    img: 'src/assets/pictures/w2lwtamj04ppunsffus2.webp',
+    img: '/pictures/w2lwtamj04ppunsffus2.webp',
   },
   {
     id: 5,
@@ -38,14 +38,14 @@ export const carouselTop: TCarouselItem[] = [
     title: 'Susie',
     price: 10,
     isOptions: true,
-    img: 'src/assets/pictures/snake-plant-dda326.webp',
+    img: '/pictures/snake-plant-dda326.webp',
   },
   {
     id: 6,
     title: 'Fractured pot',
     price: 16,
     isOptions: true,
-    img: 'src/assets/pictures/xrmx5sdmsccqsz02ny2l.webp',
+    img: '/pictures/xrmx5sdmsccqsz02ny2l.webp',
   },
   {
     id: 7,
@@ -53,14 +53,14 @@ export const carouselTop: TCarouselItem[] = [
     title: 'Rapunzel',
     price: 15,
     isOptions: true,
-    img: 'src/assets/pictures/ypgmev3z0gfcl1ucxmhb.webp',
+    img: '/pictures/ypgmev3z0gfcl1ucxmhb.webp',
   },
   {
     id: 8,
     title: 'Ceramic glazed pot',
     price: 5,
     isOptions: true,
-    img: 'src/assets/pictures/fhtfccbsdillkd6dtbqy.webp',
+    img: '/pictures/fhtfccbsdillkd6dtbqy.webp',
   },
   {
     id: 9,
@@ -68,7 +68,7 @@ export const carouselTop: TCarouselItem[] = [
     title: 'Silvy',
     price: 16,
     isOptions: true,
-    img: 'src/assets/pictures/mwawyu5we0cx7mfozvxn.jpg',
+    img: '/pictures/mwawyu5we0cx7mfozvxn.jpg',
   },
   {
     id: 10,
@@ -76,7 +76,7 @@ export const carouselTop: TCarouselItem[] = [
     title: 'Bertie',
     price: 4,
     isOptions: true,
-    img: 'src/assets/pictures/boston-fern-42361f.webp',
+    img: '/pictures/boston-fern-42361f.webp',
   },
 ];
 
@@ -87,7 +87,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Big Ken',
     price: 75,
     isOptions: false,
-    img: 'src/assets/pictures/vxnuidely9mqnh1zuwuv.webp',
+    img: '/pictures/vxnuidely9mqnh1zuwuv.webp',
   },
   {
     id: 2,
@@ -95,7 +95,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Lizzie',
     price: 18,
     isOptions: false,
-    img: 'src/assets/pictures/c0ks5bx9bqhkrd2uypje.webp',
+    img: '/pictures/c0ks5bx9bqhkrd2uypje.webp',
   },
   {
     id: 3,
@@ -103,7 +103,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Vivi',
     price: 55,
     isOptions: false,
-    img: 'src/assets/pictures/mfmn4ta9wdrh6uqxdojf.webp',
+    img: '/pictures/mfmn4ta9wdrh6uqxdojf.webp',
   },
   {
     id: 4,
@@ -111,7 +111,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Rachel',
     price: 22,
     isOptions: false,
-    img: 'src/assets/pictures/tq9rqwf7ygadun8gpdfm.webp',
+    img: '/pictures/tq9rqwf7ygadun8gpdfm.webp',
   },
   {
     id: 5,
@@ -119,7 +119,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Propagation set',
     price: 100,
     isOptions: false,
-    img: 'src/assets/pictures/ozclyqtmkee4uiqxkbm5.webp',
+    img: '/pictures/ozclyqtmkee4uiqxkbm5.webp',
   },
   {
     id: 6,
@@ -127,7 +127,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Lorenzo',
     price: 18,
     isOptions: false,
-    img: 'src/assets/pictures/h14r0wmq1dwq9pd9rpwa.webp',
+    img: '/pictures/h14r0wmq1dwq9pd9rpwa.webp',
   },
   {
     id: 7,
@@ -135,7 +135,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Fractured pot',
     price: 20,
     isOptions: false,
-    img: 'src/assets/pictures/jrb2tin7dj9qyjcemnoj.webp',
+    img: '/pictures/jrb2tin7dj9qyjcemnoj.webp',
   },
   {
     id: 8,
@@ -143,7 +143,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Susie',
     price: 20,
     isOptions: false,
-    img: 'src/assets/pictures/him4opgqrfnizgnrzrgi.webp',
+    img: '/pictures/him4opgqrfnizgnrzrgi.webp',
   },
   {
     id: 9,
@@ -151,7 +151,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Sharon',
     price: 36,
     isOptions: false,
-    img: 'src/assets/pictures/ih9xyrjlx3wwozvj2vai.webp',
+    img: '/pictures/ih9xyrjlx3wwozvj2vai.webp',
   },
   {
     id: 10,
@@ -159,7 +159,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Hugh',
     price: 12,
     isOptions: false,
-    img: 'src/assets/pictures/prvaesk5zv1amaqdfcqn.webp',
+    img: '/pictures/prvaesk5zv1amaqdfcqn.webp',
   },
   {
     id: 11,
@@ -167,7 +167,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Dipped pot in stand',
     price: 100,
     isOptions: false,
-    img: 'src/assets/pictures/noovqiilppwn6v3iyfbt.webp',
+    img: '/pictures/noovqiilppwn6v3iyfbt.webp',
   },
   {
     id: 12,
@@ -175,7 +175,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Laura tree',
     price: 75,
     isOptions: false,
-    img: 'src/assets/pictures/fdsuax2tgzhqad9wesmf.jpg',
+    img: '/pictures/fdsuax2tgzhqad9wesmf.jpg',
   },
   {
     id: 13,
@@ -183,14 +183,14 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Suri',
     price: 8,
     isOptions: false,
-    img: 'src/assets/pictures/bjhxooj9qq7mvhzk368c.webp',
+    img: '/pictures/bjhxooj9qq7mvhzk368c.webp',
   },
   {
     id: 14,
     title: 'Secateurs',
     price: 18,
     isOptions: false,
-    img: 'src/assets/pictures/ox3cn4sjtfxnnn2jgpek.webp',
+    img: '/pictures/ox3cn4sjtfxnnn2jgpek.webp',
   },
   {
     id: 15,
@@ -198,7 +198,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Unkillable set',
     price: 180,
     isOptions: false,
-    img: 'src/assets/pictures/uyqprhxwdxligxwedzlo.webp',
+    img: '/pictures/uyqprhxwdxligxwedzlo.webp',
   },
   {
     id: 16,
@@ -206,7 +206,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Clay pot',
     price: 12,
     isOptions: false,
-    img: 'src/assets/pictures/blybad1kjiwgs3fmsfoe.webp',
+    img: '/pictures/blybad1kjiwgs3fmsfoe.webp',
   },
   {
     id: 17,
@@ -214,7 +214,7 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Piña',
     price: 25,
     isOptions: false,
-    img: 'src/assets/pictures/oxjeobm3sjmz1xxeudyo.webp',
+    img: '/pictures/oxjeobm3sjmz1xxeudyo.webp',
   },
   {
     id: 18,
@@ -222,6 +222,6 @@ export const carouselBottom: TCarouselItem[] = [
     title: 'Ivy',
     price: 25,
     isOptions: false,
-    img: 'src/assets/pictures/xpfb2inkgcuscuoq8fia.jpg',
+    img: '/pictures/xpfb2inkgcuscuoq8fia.jpg',
   },
 ];

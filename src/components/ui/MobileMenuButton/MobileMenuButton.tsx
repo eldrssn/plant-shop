@@ -3,7 +3,7 @@ import { TOnClick } from '@/types';
 
 const MobileMenuButton: FC<TOnClick> = ({ onClick }) => (
   <button
-    className='float-left clear-both ml-7 relative h-4 w-5'
+    className='relative float-left clear-both w-5 h-4 ml-7'
     onClick={onClick}
   >
     <span

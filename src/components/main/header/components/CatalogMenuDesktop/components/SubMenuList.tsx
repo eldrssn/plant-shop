@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { SubMenuItem } from './SubMenuItem';
-import { TSubMenuList } from './types';
+import { TSubMenuList } from '../types';
 
 const SubMenuList: FC<TSubMenuList> = ({ submenu, className }) => (
   <div className='relative'>

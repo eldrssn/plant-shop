@@ -1,14 +1,10 @@
 const DeliveryOffer = () => (
-  <section className='bg-stone-200 p-6'>
-    <div className='bg-stone-200 text-center flex flex-col lg:flex-row justify-center items-center gap-5'>
+  <section className='p-6 bg-stone-200'>
+    <div className='flex flex-col items-center justify-center gap-5 text-center bg-stone-200 lg:flex-row'>
       <div>
-        <img
-          src='src/assets/svg/delivery-van.svg'
-          alt='delivery van'
-          className='w-32'
-        />
+        <img src='/svg/delivery-van.svg' alt='delivery van' className='w-32' />
       </div>
-      <p className='font-bold text-xl md:text-3xl'>
+      <p className='text-xl font-bold md:text-3xl font-header'>
         Free standard delivery on orders over £50
       </p>
     </div>

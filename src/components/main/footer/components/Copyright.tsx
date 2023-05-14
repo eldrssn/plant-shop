@@ -1,7 +1,7 @@
 import { getCurrentYear } from '@/utility';
 
 const Copyright = () => (
-  <p className='text-sm text-center p-6 '>
+  <p className='p-6 text-sm text-center '>
     © {getCurrentYear()} Maxim Kalumullin
   </p>
 );

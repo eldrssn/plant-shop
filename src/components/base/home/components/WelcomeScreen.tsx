@@ -8,15 +8,15 @@ const WelcomeScreen = () => (
     >
       <div className='basis-1/2 h-1/2 md:h-full'>
         <img
-          src='src/assets/pictures/welcome-plant.webp'
+          src='/pictures/welcome-plant.webp'
           alt='welcome-plant'
           className='object-cover object-center w-full h-full'
         />
       </div>
 
-      <div className='basis-1/2 h-1/2 md:h-full bg-stone-200 flex items-center'>
+      <div className='flex items-center basis-1/2 h-1/2 md:h-full bg-stone-200'>
         <div className='md:max-w-[37.5rem] py-12 px-7 md:ml-auto '>
-          <h1 className='text-5xl mt-0 mb-6 font-bold text-zinc-800'>
+          <h1 className='mt-0 mb-6 text-5xl font-bold text-zinc-800 font-header'>
             Plants made easy
           </h1>
           <p className='mb-6'>

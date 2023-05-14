@@ -1,6 +1,6 @@
 import { TCarouselItem } from '@/types';
 
-export type TCarouselScreenTemplate = {
+export type TCarouselScreen = {
   header: string;
   description: string;
   carouselList: TCarouselItem[];

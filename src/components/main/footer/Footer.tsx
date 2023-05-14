@@ -5,8 +5,8 @@ import { SocialLinksList } from './components/SocialLinksList';
 import { Copyright } from './components/Copyright';
 
 const Footer = () => (
-  <footer className='bg-zinc-800 text-white p-12'>
-    <div className='flex flex-col md:flex-row md:max-w-6xl m-auto'>
+  <footer className='p-12 text-white bg-zinc-800'>
+    <div className='flex flex-col m-auto md:flex-row md:max-w-6xl'>
       <JoinBox />
       {footerList.map((list, index) => (
         <FooterLinksList key={list.id} {...list} order={index} />

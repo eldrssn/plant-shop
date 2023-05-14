@@ -19,7 +19,7 @@ const ButtonToCart = ({ id }: { id: number }) => {
           name='count'
           defaultValue={1}
           min={1}
-          className='outline-none py-3 px-4 w-full'
+          className='w-full px-4 py-3 outline-none'
         />
       </div>
 

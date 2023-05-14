@@ -1,4 +1,4 @@
-import { TPromiseItem } from '@/components/base/home/components/types';
+import { TPromiseItem } from '@/components/base/home/types';
 
 export const promises: TPromiseItem[] = [
   {
@@ -6,7 +6,7 @@ export const promises: TPromiseItem[] = [
     label: 'Quality',
     desciption:
       'We source directly from top-rated growers, so we can sell the finest quality plants at the very best prices.',
-    image: 'src/assets/svg/SVG_Quality_illustration.svg',
+    image: '/svg/SVG_Quality_illustration.svg',
     id: 1,
   },
   {
@@ -14,7 +14,7 @@ export const promises: TPromiseItem[] = [
     label: 'Convenience',
     desciption:
       'We’ll bring your plants to your door, anywhere in GB. If you’re not 100% happy, tell us within 30 days and we’ll sort it.',
-    image: 'src/assets/svg/SVG_Convenience_illustration2.svg',
+    image: '/svg/SVG_Convenience_illustration2.svg',
     id: 2,
   },
   {
@@ -22,7 +22,7 @@ export const promises: TPromiseItem[] = [
     label: 'Care',
     desciption:
       'We’ll send you a free plant-parenting course and our plant doctors are always on call.',
-    image: 'src/assets/svg/SVG_Care_illustration2.svg',
+    image: '/svg/SVG_Care_illustration2.svg',
     id: 3,
   },
 ];

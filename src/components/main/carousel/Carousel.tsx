@@ -3,8 +3,8 @@ import { useCarousel } from '@/hooks/useCarousel';
 import { useInViewportOnce } from '@/hooks/useInViewportOnce';
 import { WithTransition } from '@/hocs/WithTransition';
 
-import { CarouselItem } from './CarouselItem';
-import { ArrowButton } from './ArrowButton';
+import { CarouselItem } from './components/CarouselItem';
+import { ArrowButton } from './components/ArrowButton';
 
 import { getDefaultStyles, transitionStyles } from './constants';
 import { Directions, TCarousel } from './types';
@@ -21,8 +21,8 @@ const Carousel: FC<TCarousel> = ({ carouselList }) => {
 
   return (
     <>
-      <div className='lg:basis-3/4 w-full overflow-hidden'>
-        <div className=' overflow-hidden relative'>
+      <div className='w-full overflow-hidden lg:basis-3/4'>
+        <div className='relative overflow-hidden '>
           <div className='md:w-[30%] m-auto md:m-0'>
             <div
               ref={ref}

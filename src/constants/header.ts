@@ -6,5 +6,3 @@ export const buttonIcons = [
     svgId: 'icon-shopping-bag',
   },
 ];
-
-export const MAIN_CATEGORY = 'main';

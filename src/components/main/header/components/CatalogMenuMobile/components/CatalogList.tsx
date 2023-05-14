@@ -1,13 +1,14 @@
 import { useContext } from 'react';
 
 import { WithTransition } from '@/hocs/WithTransition';
-import { HeaderContext } from '@/components/main/header/components/HeaderContext';
 
-import { CatalogItem } from '../CatalogItem';
-import { getDefaultStyles, transitionStyles } from './constants';
+import { CatalogItem } from './CatalogItem';
+import { getDefaultStyles, transitionStyles } from '../constants';
+import { CatalogContext } from './CatalogContext';
 
 const CatalogList = () => {
-  const { isNav, currentMenu, handleItemClick } = useContext(HeaderContext);
+  const { isMounted, currentMenu, handleItemClick } =
+    useContext(CatalogContext);
 
   return (
     <ul className='w-full mt-8'>
@@ -18,7 +19,7 @@ const CatalogList = () => {
             defaultStyle: getDefaultStyles(++index),
             transitionStyles,
           }}
-          isOpen={isNav}
+          isOpen={isMounted}
         >
           <CatalogItem {...item} onClick={handleItemClick(item)} />
         </WithTransition>

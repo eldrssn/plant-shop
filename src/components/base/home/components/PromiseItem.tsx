@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { TPromiseItem } from './types';
+import { TPromiseItem } from '../types';
 
 const PromiseItem: FC<TPromiseItem> = ({ label, title, desciption, image }) => (
   <li>
