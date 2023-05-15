@@ -17,12 +17,10 @@ const CatalogContextProvider: FC<Children> = ({ children }) => {
   const [isMounted, setIsMounted] = useState(isOpen);
   const [menuList, setMenuList] = useState<TMenuItem[][]>([catalog]);
 
-  console.log('isOpen', isOpen);
-
-  const toggleMount = useCallback(
-    () => setIsMounted((isMounted) => !isMounted),
-    [setIsMounted],
-  );
+  const toggleMount = useCallback(() => {
+    setIsMounted((isMounted) => !isMounted);
+    console.log('MOUNTED');
+  }, [setIsMounted]);
 
   const remount = useCallback(() => {
     toggleMount();
@@ -50,9 +48,10 @@ const CatalogContextProvider: FC<Children> = ({ children }) => {
   const isMainCategory = menuList.length === 1;
 
   useEffect(() => {
-    toggleMount();
+    // toggleMount();
 
     return () => {
+      toggleMount();
       setMenuList([catalog]);
     };
   }, [isOpen, toggleMount]);

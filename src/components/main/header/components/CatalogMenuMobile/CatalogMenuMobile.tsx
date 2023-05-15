@@ -14,12 +14,7 @@ const CatalogMenuMobile = () => {
   return (
     <>
       <div className='flex-1 w-1/3 h-4'>
-        <MobileMenuButton
-          onClick={() => {
-            openMenu();
-            console.log('click');
-          }}
-        />
+        <MobileMenuButton onClick={openMenu} />
       </div>
 
       {isOpen && <Background onClick={closeMenu} />}

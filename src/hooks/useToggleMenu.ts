@@ -6,7 +6,6 @@ export const useToggleMenu = (): {
   closeMenu: () => void;
 } => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  console.log('isOpen', isOpen);
 
   const openMenu = () => setIsOpen(true);
   const closeMenu = () => setIsOpen(false);
